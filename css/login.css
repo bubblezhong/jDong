@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.logo{
+	position: relative;
+	margin: 0 auto;
+	width: 990px;
+}
+.logo>span{
+	position: absolute;
+	top: 10px;
+	left: 190px;
+	font-size: 24px;
+	font-family: '微软雅黑';
+	color: #333;
+}
+.wrap{
+	margin: 0 auto;
+	padding: 0 auto;
+	width: 100%;
+	height:475px;
+	background-color: #f66610;
+}
+.container{
+	margin:0 auto;
+	width: 990px;  /*高度为什么不会被内容撑大*/
+}
+.left{
+      margin: 0 auto;
+      float: left;
+}
+.login{
+	margin-top: 50px;
+	float: right;
+	width: 300px;
+	height: 275px;
+	padding: 10px;
+	background-color: #fff;
+}
+.title span{
+	float: left;
+	font-size: 24px;
+	color: #333;
+}
+.title a{
+	margin-top: 9px;
+	float: right;
+	color:#b61d1d;
+	text-decoration:none;
+}
+.tip{
+	margin-top: 38px;
+	width: 300px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	color: #666;
+	background-color: #fff6d2;
+	border: 1px solid #ffe57d;
+}
+.warm{
+	margin-top: 38px;
+	width: 300px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	color: #e4393c;
+    background: #ffebeb;
+    border: 1px solid #e4393c;
+}
+#count,#password{
+	margin-top: 10px;
+	width: 280px;      
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+.save{
+	height: 15px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 12px;
+}
+.save input{
+	vertical-align: middle;
+}
+.save label{
+    color:#444;
+}
+.save a{
+	float: right;
+	color: #b61d1d;
+	text-decoration: none;
+}
+.submit{
+	width: 300px;
+	height: 35px;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	background-color: #e4393c;
+    border: 0;
+    cursor: pointer;
+}
